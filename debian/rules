@@ -23,6 +23,3 @@ override_dh_installdebconf:
 	find $(CURDIR)/debian/ca-certificates/usr/share/ca-certificates -type f -name '*.crt' -printf '%P\n' | \
 	 LC_ALL=C sort | sed -e '$$! s/$$/, /' | tr -d '\n' > debian/config.initial_certs
 	dh_installdebconf -n -DINITIAL_CERTS=@debian/config.initial_certs
-
-override_dh_compress:
-	dh_compress -X examples
