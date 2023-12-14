@@ -25,7 +25,7 @@ This manual page documents briefly the
 .B update-ca-certificates
 command.
 .PP
-\fBupdate-ca-certificates\fP is a program that updates the collection of
+\fBupdate-ca-certificates\fP is a program that manages the collection of
 TLS certificates for the local machine and generates ca-certificates.crt.
 ca-certificates.crt is a single-file of concatenated certificates.
 The collection of individual certificates is stored at /etc/ssl/certs.
@@ -62,18 +62,23 @@ Be verbose. Output \fBopenssl rehash\fP.
 .TP
 .B \-f, \-\-fresh
 Fresh updates.  Remove symlinks in /etc/ssl/certs directory.
+.TP
 .B \-\-certsconf
 Change the configuration file. By default, the file
 /etc/ca-certificates.conf is used.
+.TP
 .B \-\-certsdir
 Change the certificate directory. By default, the directory
 /usr/share/ca-certificates is used.
+.TP
 .B \-\-localcertsdir
 Change the local certificate directory. By default, the directory
 /usr/local/share/ca-certificates is used.
+.TP
 .B \-\-etccertsdir
 Change the /etc certificate directory. By default, the directory
 /etc/ssl/certs is used.
+.TP
 .SH FILES
 .TP
 .I /etc/ca-certificates.conf
