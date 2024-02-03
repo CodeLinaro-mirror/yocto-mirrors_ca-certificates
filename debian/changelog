@@ -1,3 +1,14 @@
+ca-certificates (20240203) UNRELEASED; urgency=medium
+
+  [ Jeffrey Walton ]
+  * update-ca-certificates man page updates
+  * fix shellcheck warnings (closes: #1058658, #981663)
+
+  [ Gioele Barabucci ]
+  * Use standard dh sequence (closes: #1050112)
+
+ -- Julien Cristau <jcristau@debian.org>  Sat, 03 Feb 2024 12:13:48 +0100
+
 ca-certificates (20230311) unstable; urgency=medium
 
   [ Đoàn Trần Công Danh ]
