@@ -1,4 +1,4 @@
-ca-certificates (20240203) UNRELEASED; urgency=medium
+ca-certificates (20240203) unstable; urgency=medium
 
   [ Jeffrey Walton ]
   * update-ca-certificates man page updates
@@ -34,7 +34,7 @@ ca-certificates (20240203) UNRELEASED; urgency=medium
     - TrustCor RootCert CA-1
     - TrustCor RootCert CA-2 (closes: #1023945)
 
- -- Julien Cristau <jcristau@debian.org>  Sat, 03 Feb 2024 12:13:48 +0100
+ -- Julien Cristau <jcristau@debian.org>  Sun, 04 Feb 2024 10:41:43 +0100
 
 ca-certificates (20230311) unstable; urgency=medium
 
