@@ -11,6 +11,8 @@ ca-certificates (20241223) UNRELEASED; urgency=medium
     + SecureSign Root CA15
     The following certificate authorities were removed (-):
     - Security Communication Root CA (closes: #1063093)
+  * Add Romanian debconf translation, thanks to Remus-Gabriel Chelu.
+    Closes: #1067042, #1031490.
 
  -- Julien Cristau <jcristau@debian.org>  Mon, 23 Dec 2024 12:39:00 +0100
 
