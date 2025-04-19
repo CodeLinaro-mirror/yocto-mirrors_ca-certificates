@@ -1,4 +1,4 @@
-ca-certificates (20250419) UNRELEASED; urgency=medium
+ca-certificates (20250419) unstable; urgency=medium
 
   [ Alexander Kanavin ]
   * update-ca-certificates: add a --sysroot option
@@ -14,7 +14,7 @@ ca-certificates (20250419) UNRELEASED; urgency=medium
     - Security Communication RootCA3
     - SwissSign Silver CA - G2
 
- -- Julien Cristau <jcristau@debian.org>  Sat, 19 Apr 2025 09:23:24 +0200
+ -- Julien Cristau <jcristau@debian.org>  Sat, 19 Apr 2025 09:25:37 +0200
 
 ca-certificates (20241223) unstable; urgency=medium
 
