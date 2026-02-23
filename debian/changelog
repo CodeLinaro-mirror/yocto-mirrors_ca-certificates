@@ -1,3 +1,9 @@
+ca-certificates (20260224) UNRELEASED; urgency=medium
+
+  * Remove ca-certificates-local example (closes: #988912, #1127101).
+
+ -- Julien Cristau <jcristau@debian.org>  Mon, 23 Feb 2026 18:57:57 +0100
+
 ca-certificates (20260223) unstable; urgency=medium
 
   * Update Mozilla certificate authority bundle to version 2.82
