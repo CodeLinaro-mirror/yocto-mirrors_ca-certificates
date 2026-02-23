@@ -40,7 +40,6 @@ remove_dangling_symlinks() {
 case "$1" in
     remove)
         remove_dangling_symlinks
-        rmdir /usr/local/share/ca-certificates 2>/dev/null || true
         ;;
 
     purge)
