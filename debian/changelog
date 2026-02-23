@@ -1,4 +1,4 @@
-ca-certificates (20260223) UNRELEASED; urgency=medium
+ca-certificates (20260223) unstable; urgency=medium
 
   * Update Mozilla certificate authority bundle to version 2.82
     The following certificate authorities were added (+):
@@ -10,7 +10,7 @@ ca-certificates (20260223) UNRELEASED; urgency=medium
     The following certificate authorities were removed (-):
     - GlobalSign Root CA
     - Entrust.net Premium 2048 Secure Server CA
-    - Baltimore CyberTrust Root
+    - Baltimore CyberTrust Root (closes: #1121936)
     - Comodo AAA Services root
     - XRamp Global CA Root
     - Go Daddy Class 2 CA
@@ -22,7 +22,7 @@ ca-certificates (20260223) UNRELEASED; urgency=medium
   * Use dh_usrlocal to create /usr/local/share/ca-certificates
     (closes: #1127100)
 
- -- Julien Cristau <jcristau@debian.org>  Mon, 23 Feb 2026 16:34:20 +0100
+ -- Julien Cristau <jcristau@debian.org>  Mon, 23 Feb 2026 17:46:55 +0100
 
 ca-certificates (20250419) unstable; urgency=medium
 
